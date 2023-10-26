@@ -41,7 +41,7 @@ class AuthService {
       await _googleSignIn.signOut();
       await FirebaseAuth.instance.signOut();
       Navigator.pushReplacement(
-          context, MaterialPageRoute(builder: (context) => const SignInPage()));
+          context, MaterialPageRoute(builder: (context) => const signInPage()));
     } catch (error) {
       print("Error siging out:$error");
     }

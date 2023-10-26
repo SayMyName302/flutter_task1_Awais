@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_task1/services/services.dart';
 
-class SignInPage extends StatefulWidget {
-  const SignInPage({super.key});
+class signInPage extends StatefulWidget {
+  const signInPage({super.key});
 
   @override
-  State<SignInPage> createState() => _SignInPageState();
+  State<signInPage> createState() => _signInPageState();
 }
 
-class _SignInPageState extends State<SignInPage> {
+class _signInPageState extends State<signInPage> {
   @override
   Widget build(BuildContext context) {
     AuthService authService = AuthService();
