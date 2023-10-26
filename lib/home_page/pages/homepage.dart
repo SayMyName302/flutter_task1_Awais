@@ -44,7 +44,7 @@ class _HomePageState extends State<HomePage> {
       body: Center(
         child: Column(
           children: [
-            Text('Welcome $email'),
+            Text('Welcome : $email'),
             Padding(
               padding: const EdgeInsets.only(top: 8.0),
               child: InkWell(
